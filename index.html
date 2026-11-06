@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Campus | Eco Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">🌿 GreenCampus</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#activities">Activities</a>
+        <a href="#solutions">Eco Solutions</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#tools">Eco Tools</a>
+    </nav>
+
+    <button id="themeToggle">🌙</button>
+</header>
+
+<!-- HOME -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Building a <span>Greener</span><br>Campus Together.</h1>
+        <p>
+            Discover simple ways to make our campus cleaner,
+            smarter and more sustainable.
+        </p>
+        <a href="#activities" class="btn">Explore Campus</a>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1000&q=85"
+         alt="Green Nature">
+</section>
+
+<!-- COUNTERS -->
+<section class="stats">
+    <div>
+        <h2 class="counter" data-target="1200">0</h2>
+        <p>🌳 Trees Planted</p>
+    </div>
+
+    <div>
+        <h2 class="counter" data-target="850">0</h2>
+        <p>♻️ Waste Recycled</p>
+    </div>
+
+    <div>
+        <h2 class="counter" data-target="320">0</h2>
+        <p>💧 Water Saving Actions</p>
+    </div>
+
+    <div>
+        <h2 class="counter" data-target="95">0</h2>
+        <p>☀️ Eco Volunteers</p>
+    </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section class="section" id="activities">
+    <h2>Green Campus Activities</h2>
+    <p class="subtitle">Every action helps create a healthier environment.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🌱 Tree Plantation</h3>
+            <p>Plant trees and protect campus greenery.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧹 Clean Campus</h3>
+            <p>Keep classrooms and campus areas clean.</p>
+        </div>
+
+        <div class="card">
+            <h3>♻️ Plastic-Free Campus</h3>
+            <p>Reduce plastic and use reusable products.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ECO SOLUTIONS -->
+<section class="section solutions" id="solutions">
+    <h2>Smart Eco Solutions</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>☀️ Solar Energy</h3>
+            <p>Use renewable solar energy to reduce pollution.</p>
+        </div>
+
+        <div class="card">
+            <h3>♻️ Waste Management</h3>
+            <p>Separate waste and recycle useful materials.</p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Water Conservation</h3>
+            <p>Save water and prevent unnecessary wastage.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ENVIRONMENTAL TIPS -->
+<section class="section">
+    <h2>Environmental Tip</h2>
+
+    <div class="tip-box">
+        <p id="tipText">Carry a reusable water bottle instead of plastic bottles.</p>
+        <button class="btn" id="newTip">Get Another Tip</button>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+    <h2>Photo Gallery</h2>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Forest">
+        <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80" alt="Plants">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80" alt="Green Nature">
+    </div>
+</section>
+
+<!-- ECO TOOLS -->
+<section class="section tools" id="tools">
+    <h2>Interactive Eco Tools</h2>
+
+    <div class="cards">
+
+        <!-- ECO CALCULATOR -->
+        <div class="card">
+            <h3>🌎 Eco Calculator</h3>
+            <p>Calculate estimated CO₂ savings.</p>
+
+            <input type="number" id="distance" placeholder="Distance in km/week">
+
+            <button class="btn" id="calculate">Calculate</button>
+
+            <p id="calcResult"></p>
+        </div>
+
+        <!-- DAILY CHALLENGE -->
+        <div class="card">
+            <h3>🎯 Daily Green Challenge</h3>
+            <p id="challengeText">Bring a reusable bottle today.</p>
+
+            <button class="btn" id="newChallenge">New Challenge</button>
+        </div>
+
+        <!-- QUIZ -->
+        <div class="card">
+            <h3>🧠 Environmental Quiz</h3>
+
+            <p id="question">Which energy source is renewable?</p>
+
+            <div id="quizOptions"></div>
+
+            <p id="quizResult"></p>
+
+            <button class="btn" id="nextQuestion">Next Question</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h3>🌿 GreenCampus</h3>
+    <p>Think Green. Act Green. Live Green.</p>
+    <p>Smart Eco Awareness Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
